@@ -25,7 +25,7 @@ FIXTURE_DIRS = (
 
 USE_TZ = True
 
-ROOT_URLCONF = 'tests.urls'
+# ROOT_URLCONF = 'tests.urls'
 
 SECRET_KEY = 'secretkey'
 
