@@ -1,2 +1,4 @@
--r base.txt
+django>=1.7.4,<1.8
 django-nose>=1.2
+
+-r base.txt
