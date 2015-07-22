@@ -38,6 +38,5 @@ Configuration
 - Done.
 
 
-
 .. _WSPay: http://www.wspay.info/
 .. _django-shop: https://github.com/divio/django-shop
