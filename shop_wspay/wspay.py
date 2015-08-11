@@ -87,7 +87,7 @@ class WSPayBackend(object):
         data = {
             'ShoppingCartID': int(request.GET.get('ShoppingCartID', 0)),
             'Success': int(request.GET.get('Success', 0)),
-            'ApprovalCode': int(request.GET.get('ApprovalCode', 0)),
+            'ApprovalCode': request.GET.get('ApprovalCode', ''),
             'Signature': request.GET.get('Signature', ''),
         }
 
@@ -103,7 +103,7 @@ class WSPayBackend(object):
 
         # Check if transaction failed.
         if (data['ShoppingCartID'] != order_id or
-                data['ApprovalCode'] == 0 or
+                data['ApprovalCode'] == '' or
                 data['Success'] != 1 or
                 data['Signature'] != signature):
             return render(request, 'shop_wspay/failed.html', {

@@ -40,3 +40,14 @@ Configuration
 
 .. _WSPay: http://www.wspay.info/
 .. _django-shop: https://github.com/divio/django-shop
+
+
+=========
+Changelog
+=========
+
+0.0.2
+    + Fix casting approval code to int removes leading zeros.
+
+0.0.1
+    + Alpha release
