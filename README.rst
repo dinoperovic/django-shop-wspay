@@ -10,6 +10,7 @@ django-shop-wspay
 
 `WSPay`_ payment gateway implementation for `django SHOP <http://www.django-shop.org>`_.
 
+    This project is ment for version 0.2.x of djangoSHOP. If you use djangoSHOP version 0.9.x and above, there's a new project `djangoshop-wspay`_.
 
 ============
 Installation
@@ -40,6 +41,7 @@ Configuration
 
 .. _WSPay: http://www.wspay.info/
 .. _django-shop: https://github.com/divio/django-shop
+.. _djangoshop-wspay: https://github.com/dinoperovic/djangoshop-wspay
 
 
 =========
